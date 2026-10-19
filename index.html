@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjola — SEO, Web Design &amp; Automation for Home-Service Businesses</title>
+  <meta name="description" content="Turn your website into a 24/7 lead generation system. SEO, conversion-focused web design, and automated follow-up for home-service businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- SVG sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-devices" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="14" height="10" rx="2"/><path d="M6 18h6M9 14v4"/><rect x="15" y="10" width="7" height="10" rx="1.5"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 7v10M7 12h10"/></g></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M7 12h10"/></g></symbol>
+    <symbol id="logo-mark" viewBox="0 0 48 36"><path d="M14 1h9L11 26H2z" fill="currentColor"/><path d="M0 35l4-7h9l-4 7z" fill="currentColor"/><path d="M24.6 9.5A11 11 0 1 1 24.6 20.5" fill="none" stroke="currentColor" stroke-width="7.5"/></symbol>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Anjola home">
+        <svg class="logo__mark"><use href="#logo-mark"/></svg>
+        <span class="logo__text">Anjola</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#how-it-works">How it Works</a>
+        <a href="#work">Work</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#audit">Free Audit</a>
+        <a href="#audit" class="btn btn--outline nav__cta">Get Your Free Audit <span class="btn__icon btn__icon--green"><svg><use href="#i-arrow"/></svg></span></a>
+      </nav>
+
+      <a href="#audit" class="btn btn--outline header__cta">Get Your Free Audit <span class="btn__icon btn__icon--green"><svg><use href="#i-arrow"/></svg></span></a>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="hero__eyebrow reveal">SEO • Web Design • Automation</p>
+          <h1 class="hero__title reveal">Turn Your Website Into a <span class="accent">24/7 Lead Generation System</span></h1>
+
+          <p class="lead strong reveal">Do you have a website simply because you thought your business was supposed to have one?</p>
+          <p class="muted reveal">Your website should be doing more than just looking good and sitting online.</p>
+          <p class="reveal"><strong>I help home-service businesses get found on Google, attract more local customers, and turn that traffic into qualified leads</strong> <span class="muted">through SEO, conversion-focused web design, and automated follow-up.</span></p>
+          <p class="reveal"><span class="muted">Instead of hoping customers find you—or watching interested visitors leave without taking action—you get a system designed</span> <strong>to bring in traffic, capture leads, and turn more of those leads into paying customers.</strong></p>
+
+          <div class="btn-row reveal">
+            <a href="#audit" class="btn btn--primary">Get Your Free Website + SEO Audit <span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+            <a href="#how-it-works" class="btn btn--outline">See How It Works <span class="btn__icon btn__icon--green"><svg><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <p class="fine reveal">No pressure. I'll show you where leads may be slipping through the cracks—and what you can do to fix it.</p>
+        </div>
+
+        <div class="flow reveal" aria-label="Lead flow: Google Search to Customer">
+          <span class="flow__badge flow__badge--top">More Visibility</span>
+          <span class="flow__badge flow__badge--side">More Leads</span>
+          <span class="flow__badge flow__badge--bottom">Faster Follow-Up</span>
+          <p class="flow__label">Do you</p>
+          <ul class="flow__list">
+            <li class="flow__item"><span class="flow__icon"><svg><use href="#i-search"/></svg></span>Google Search</li>
+            <li class="flow__item"><span class="flow__icon"><svg><use href="#i-devices"/></svg></span>Website</li>
+            <li class="flow__item"><span class="flow__icon"><svg><use href="#i-chat"/></svg></span>Lead</li>
+            <li class="flow__item"><span class="flow__icon"><svg><use href="#i-bolt"/></svg></span>Follow-Up</li>
+            <li class="flow__item"><span class="flow__icon"><svg><use href="#i-user"/></svg></span>Customer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 THE PROBLEM ============ -->
+    <section class="section section--alt" id="problem">
+      <div class="container">
+        <p class="section-tag reveal"><span class="section-tag__num">02</span> The Problem</p>
+        <div class="section-head">
+          <h2 class="reveal">Your Website Is Online. But Is It Actually <span class="accent">Working for You?</span></h2>
+          <div class="section-head__aside reveal">
+            <p><strong>Most home-service websites aren't necessarily bad—they're just passive.</strong></p>
+            <p><strong>They sit online waiting for someone to find them, hoping visitors know what to do next, and relying on you to manually follow up when an inquiry finally comes through.</strong></p>
+            <p class="dim"><strong>That creates three common problems:</strong></p>
+          </div>
+        </div>
+
+        <div class="cards-3">
+          <article class="card reveal">
+            <span class="card__num">01</span>
+            <h3>You're Hard to Find</h3>
+            <p>Your ideal customers are already searching Google for the services you offer. If your business isn't showing up when and where they're searching, those jobs are going somewhere else.</p>
+            <ul class="tags"><li>SEO</li><li>Local Search</li><li>Google Visibility</li></ul>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">02</span>
+            <h3>Visitors Aren't Taking Action</h3>
+            <p>Getting traffic isn't enough. If your website doesn't build trust, communicate your value, and make the next step obvious, potential customers leave without calling or requesting a quote.</p>
+            <ul class="tags"><li>UX</li><li>Web Design</li><li>Conversion</li></ul>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">03</span>
+            <h3>Leads Slip Through the Cracks</h3>
+            <p>Even when someone does reach out, slow or inconsistent follow-up can mean losing a potential job to the business that responds first.</p>
+            <ul class="tags"><li>Automation</li><li>Lead Management</li><li>Follow-Up</li></ul>
+          </article>
+        </div>
+
+        <p class="statement reveal">A website shouldn't just represent your business online. <span class="accent">It should actively help you generate business.</span></p>
+      </div>
+    </section>
+
+    <!-- ============ 03 THE SYSTEM ============ -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <p class="section-tag reveal"><span class="section-tag__num">03</span> The System</p>
+        <div class="section-head">
+          <h2 class="reveal">One System. From Google Search to <span class="accent">Paying Customer</span></h2>
+          <div class="section-head__aside reveal">
+            <p class="dim"><strong>Getting more customers online isn't about doing one thing well. More traffic won't help if your website doesn't convert—and more leads won't help if they aren't followed up with.</strong></p>
+            <p><strong>That's why I build the entire system around three things:</strong></p>
+          </div>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step__num"><span>01</span><small>Get Found</small></div>
+            <h3 class="step__title">Be there when local customers are searching.</h3>
+            <div class="step__body">
+              <p>Your customers are already searching Google for the services you provide. I use local SEO and search optimization to help your business appear in front of the right people at the moment they're looking for help.</p>
+              <ul class="tags"><li>SEO</li><li>Local Search</li><li>Google Visibility</li></ul>
+            </div>
+          </article>
+          <article class="step reveal">
+            <div class="step__num"><span>02</span><small>Convert</small></div>
+            <h3 class="step__title">Turn more of that traffic into real opportunities.</h3>
+            <div class="step__body">
+              <p>Once someone lands on your website, every page should move them closer to taking action. I design conversion-focused websites that build trust, answer the right questions, and make calling, booking, or requesting a quote easy.</p>
+              <ul class="tags"><li>Web Design</li><li>Landing Pages</li><li>Conversion Optimization</li></ul>
+            </div>
+          </article>
+          <article class="step reveal">
+            <div class="step__num"><span>03</span><small>Follow Up</small></div>
+            <h3 class="step__title">Don't let a good lead go cold.</h3>
+            <div class="step__body">
+              <p>You're busy running your business—you shouldn't have to manually chase every inquiry. Automated follow-up helps you respond faster, keep potential customers engaged, and move qualified leads toward the next step.</p>
+              <ul class="tags"><li>Automation</li><li>Lead Management</li><li>AI-Powered Follow-Up</li></ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="pipeline reveal" aria-label="Get Found, Convert, Follow Up — Search, Visitor, Lead, Customer">
+          <div class="pipeline__row pipeline__row--3">
+            <span class="pill pill--green">Get Found</span><i class="dash"></i>
+            <span class="pill pill--green">Convert</span><i class="dash"></i>
+            <span class="pill pill--green">Follow Up</span>
+          </div>
+          <div class="pipeline__row pipeline__row--4">
+            <span class="pill">Search</span><i class="dash"></i>
+            <span class="pill">Visitor</span><i class="dash"></i>
+            <span class="pill">Lead</span><i class="dash"></i>
+            <span class="pill">Customer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="band">
+      <div class="container band__inner">
+        <h2 class="reveal">More Traffic Is Only Valuable If It Turns Into Business.</h2>
+        <p class="band__flow reveal">Get Found <svg><use href="#i-arrow"/></svg> Convert <svg><use href="#i-arrow"/></svg> Follow Up</p>
+        <p class="band__sub reveal">One connected system designed to help turn more local searches into leads—and more leads into customers.</p>
+        <a href="#audit" class="btn btn--primary reveal">See How I Can Help Your Business <span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+      </div>
+    </section>
+
+    <!-- ============ 05 TESTIMONIALS ============ -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <p class="section-tag reveal"><span class="section-tag__num">05</span> Testimonials</p>
+        <div class="section-head">
+          <h2 class="reveal">See What Others Have to Say</h2>
+          <div class="section-head__aside reveal">
+            <p><strong>Real experiences from businesses I've worked with.</strong></p>
+          </div>
+        </div>
+
+        <div class="cards-3 testimonials">
+          <article class="testimonial is-active reveal" tabindex="0">
+            <svg class="testimonial__star"><use href="#i-star"/></svg>
+            <h3>Fantastic Work Done</h3>
+            <p>Anjola is outstanding! Brings efficiency and communication to every project. He consistently delivers high-quality work ahead of schedule and keeps the process smooth and collaborative. Highly recommend working with him!</p>
+            <footer class="testimonial__author">
+              <img src="assets/images/avatar-jackson.jpg" alt="Jackson M." width="52" height="52" loading="lazy" />
+              <div><strong>Jackson M.</strong><span>Upwork Inc</span></div>
+            </footer>
+          </article>
+          <article class="testimonial reveal" tabindex="0">
+            <svg class="testimonial__star"><use href="#i-star"/></svg>
+            <h3>Fantastic Work Done</h3>
+            <p>Anjola is outstanding! Brings efficiency and communication to every project. He consistently delivers high-quality work ahead of schedule and keeps the process smooth and collaborative. Highly recommend working with him!</p>
+            <footer class="testimonial__author">
+              <img src="assets/images/avatar-jackson.jpg" alt="Jackson M." width="52" height="52" loading="lazy" />
+              <div><strong>Jackson M.</strong><span>Upwork Inc</span></div>
+            </footer>
+          </article>
+          <article class="testimonial reveal" tabindex="0">
+            <svg class="testimonial__star"><use href="#i-star"/></svg>
+            <h3>Fantastic Work Done</h3>
+            <p>Anjola is outstanding! Brings efficiency and communication to every project. He consistently delivers high-quality work ahead of schedule and keeps the process smooth and collaborative. Highly recommend working with him!</p>
+            <footer class="testimonial__author">
+              <img src="assets/images/avatar-jackson.jpg" alt="Jackson M." width="52" height="52" loading="lazy" />
+              <div><strong>Jackson M.</strong><span>Upwork Inc</span></div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 SELECTED WORK ============ -->
+    <section class="section section--alt" id="work">
+      <div class="container">
+        <p class="section-tag reveal"><span class="section-tag__num">06</span> Selected Work</p>
+        <div class="section-head">
+          <h2 class="reveal">Websites We've Built to Do More Than Look Good</h2>
+          <div class="section-head__aside reveal">
+            <p><strong>I've helped businesses turn their websites into clearer, faster, and more effective digital experiences—built around real business goals, not just aesthetics.</strong></p>
+          </div>
+        </div>
+
+        <article class="project reveal" id="project">
+          <header class="project__head">
+            <div>
+              <h3 class="project__title" data-field="title">Project Title</h3>
+              <p class="project__client" data-field="client">Client Name</p>
+            </div>
+            <span class="project__type">Case Study</span>
+          </header>
+
+          <div class="project__media">
+            <div class="project__main">
+              <img data-field="image" src="assets/images/project-summit.jpg" alt="Summit Exteriors website shown on a laptop" />
+            </div>
+            <div class="project__thumbs" role="tablist" aria-label="Projects"></div>
+            <div class="project__controls">
+              <button class="round-btn round-btn--green" data-dir="-1" aria-label="Previous project"><svg><use href="#i-arrow-left"/></svg></button>
+              <button class="round-btn" data-dir="1" aria-label="Next project"><svg><use href="#i-arrow"/></svg></button>
+            </div>
+          </div>
+
+          <div class="project__details">
+            <div><h4>The Challenge</h4><p data-field="challenge">A short sentence explaining what wasn't working.</p></div>
+            <div><h4>What I Changed</h4><p data-field="changed">SEO, website redesign, conversion improvements, or automation.</p></div>
+            <div><h4>The Result</h4><p data-field="result">A measurable outcome, improvement, or client testimonial.</p></div>
+          </div>
+
+          <div class="project__foot">
+            <a href="#" class="btn btn--outline" data-field="link">View Project <svg class="btn__arrow"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 07 FREE AUDIT ============ -->
+    <section class="section section--dark" id="audit">
+      <div class="container audit">
+        <div class="audit__copy">
+          <p class="section-tag reveal"><span class="section-tag__num">07</span> Free Audit</p>
+          <h2 class="reveal">Find Out What's Holding Your Website Back</h2>
+          <p class="reveal"><strong>Not sure why your website isn't bringing in more business? I'll take a look and show you where the biggest opportunities are.</strong></p>
+          <h3 class="audit__sub accent reveal">Get Your Free Website + Lead-Gen Audit</h3>
+          <p class="dim reveal"><strong>I'll review how well your website is helping you:</strong></p>
+        </div>
+
+        <div class="audit__panel reveal">
+          <div class="accordion">
+            <div class="acc is-open">
+              <button class="acc__head" aria-expanded="true">Get Found <svg class="acc__icon" aria-hidden="true"><use class="acc__plus" href="#i-plus"/><use class="acc__minus" href="#i-minus"/></svg></button>
+              <div class="acc__body"><p>Where you may be missing opportunities to show up in local Google searches.</p></div>
+            </div>
+            <div class="acc">
+              <button class="acc__head" aria-expanded="false">Convert <svg class="acc__icon" aria-hidden="true"><use class="acc__plus" href="#i-plus"/><use class="acc__minus" href="#i-minus"/></svg></button>
+              <div class="acc__body"><p>Whether your pages build trust and make it easy for visitors to call, book, or request a quote.</p></div>
+            </div>
+            <div class="acc">
+              <button class="acc__head" aria-expanded="false">Follow Up <svg class="acc__icon" aria-hidden="true"><use class="acc__plus" href="#i-plus"/><use class="acc__minus" href="#i-minus"/></svg></button>
+              <div class="acc__body"><p>How quickly and consistently new inquiries get a response—and where leads go cold.</p></div>
+            </div>
+          </div>
+          <p class="audit__note">You'll walk away with clear, <a href="#final-cta">practical recommendations you can actually use—whether we work together or not.</a></p>
+          <a href="#final-cta" class="btn btn--primary">Get My Free Audit <span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></a>
+          <p class="audit__note">No pressure. No obligation. Just a clear look at what's working, what's not, and where you can improve.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final" id="final-cta">
+      <div class="container final__inner">
+        <h2 class="reveal">Your Website Should Be Bringing You Business.</h2>
+        <p class="final__accent accent reveal">Let's find out what's stopping it.</p>
+        <p class="final__sub reveal">Get a free website + lead-generation audit and discover where you could improve your visibility, capture more leads, and turn more of your website traffic into customers.</p>
+
+        <form class="audit-form reveal" id="audit-form" novalidate>
+          <div class="audit-form__fields">
+            <label><span class="sr-only">Your name</span><input type="text" name="name" placeholder="Your name" required /></label>
+            <label><span class="sr-only">Email</span><input type="email" name="email" placeholder="Email address" required /></label>
+            <label><span class="sr-only">Website URL</span><input type="text" name="website" placeholder="Website URL (e.g. yourbusiness.com)" required /></label>
+          </div>
+          <button type="submit" class="btn btn--primary">Get My Free Audit <span class="btn__icon"><svg><use href="#i-arrow"/></svg></span></button>
+          <p class="fine audit-form__msg" role="status" aria-live="polite">Free. No obligation. Just actionable recommendations for your business.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="logo" aria-label="Anjola home">
+            <svg class="logo__mark"><use href="#logo-mark"/></svg>
+            <span class="logo__text">Anjola</span>
+          </a>
+          <p>SEO, conversion-focused web design, and automated follow-up for home-service businesses.</p>
+          <a href="#audit" class="btn btn--primary btn--sm">Get Your Free Audit <svg class="btn__arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#audit">Free Audit</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul><li><a href="mailto:hello@anjola.co">hello@anjola.co</a></li></ul>
+          <h4 class="footer__h-gap">Social</h4>
+          <ul class="footer__social">
+            <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener">X</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© <span id="year">2026</span> Anjola. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
